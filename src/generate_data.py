@@ -93,3 +93,8 @@ df.to_csv(
 print(df.head())
 print()
 print(f"Dataset saved with {len(df)} observations")
+
+df = pd.read_csv("data/synthetic_education_data.csv")
+print(df.head())
+print(df.shape)
+

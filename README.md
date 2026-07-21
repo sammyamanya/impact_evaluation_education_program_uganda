@@ -34,6 +34,43 @@ The analysis will be conducted using:
 - Propensity Score Matching (PSM)
 - Propensity Score Matching with Difference-in-Differences (PSM + DiD)
 
+## Covariate Balance Assessment
+
+### Purpose
+
+Propensity Score Matching (PSM) was used to improve comparability between treatment and comparison pupils before estimating the impact of the education support program.
+
+Matching was based on observed pupil characteristics, including:
+
+- Attendance rate
+- Study hours per week
+- Class level (P5/P6)
+- Gender
+
+### Matched Sample Balance
+
+| Covariate | Comparison Group | Treatment Group |
+|------------|----------------:|----------------:|
+| Attendance Rate (%) | 84.41 | 84.98 |
+| Study Hours per Week | 6.09 | 6.09 |
+| Average Test Score | 72.83 | 72.60 |
+
+### Interpretation
+
+The balance assessment indicates that the matching procedure successfully improved comparability between treatment and comparison pupils.
+
+After matching, attendance rates were highly similar across groups, differing by less than one percentage point. Average study hours were identical between groups, while mean test scores differed by only 0.23 points. These small differences suggest that the matched sample achieved a high degree of balance on key observed characteristics.
+
+In addition, the propensity score distributions exhibited substantial overlap between treatment and comparison pupils, indicating adequate common support for matching.
+
+### Implications for Impact Estimation
+
+Because treatment and comparison pupils are more similar after matching, the subsequent Propensity Score Matching plus Difference-in-Differences (PSM + DiD) analysis is expected to provide a more credible estimate of program impact than a simple Difference-in-Differences approach alone.
+
+### Key Takeaway
+
+> The matching procedure successfully constructed a comparison group that closely resembles program participants on observed characteristics, strengthening the foundation for causal impact estimation.
+
 ## Repository Structure
 
 ```text
