@@ -1,4 +1,4 @@
-# Education Impact Evaluation of an Education Support Program in Rural Uganda
+## Impact Evaluation of an Education Support Program in Rural Uganda
 
 ## Project Overview
 
